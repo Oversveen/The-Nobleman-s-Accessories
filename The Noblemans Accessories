@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondre Øversveen - Accessories</title>
+    <meta name="description" content="Oppdag Sondre Øversveens eksklusive kolleksjon av accessories, smykker, klokker, og armbånd. Stilfulle og tidløse design for enhver anledning.">
+    <meta name="keywords" content="Sondre Øversveen, accessories, smykker, klokker, armbånd, luksus accessories, elegant design, tidløse smykker, kvalitetsklokker">
+    <meta name="author" content="Sondre Øversveen">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            font-size: 18px;
+            color: #666;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .product h3 {
+            font-size: 24px;
+            margin: 0 0 10px 0;
+        }
+        .product p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        footer p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sondre Øversveen - Accessories</h1>
+        <nav>
+            <a href="#about">Om</a>
+            <a href="#products">Produkter</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro" id="about">
+            <h2>Velkommen</h2>
+            <p>Utforsk vår eksklusive kolleksjon av accessories, smykker, klokker, og armbånd. Skapt for de som setter pris på kvalitet og stil.</p>
+        </section>
+        <section class="products" id="products">
+            <article class="product">
+                <img src="https://via.placeholder.com/300" alt="Elegant og tidløst design - Produkt 1">
+                <h3>Produkt 1</h3>
+                <p>Elegant og tidløs design.</p>
+            </article>
+            <article class="product">
+                <img src="https://via.placeholder.com/300" alt="Perfekt for enhver anledning - Produkt 2">
+                <h3>Produkt 2</h3>
+                <p>Perfekt for enhver anledning.</p>
+            </article>
+            <article class="product">
+                <img src="https://via.placeholder.com/300" alt="Stil møter funksjonalitet - Produkt 3">
+                <h3>Produkt 3</h3>
+                <p>Stil møter funksjonalitet.</p>
+            </article>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>Kontakt: sondre@eksempel.com | Følg oss på sosiale medier</p>
+    </footer>
+</body>
+</html>
